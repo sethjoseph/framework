@@ -94,7 +94,10 @@
         </configuration>
       </plugin>
     
-      <!-- Embedded Tomcat7 Plugin -->
+      <!-- Embedded Tomcat7 Plugins
+      <! 	Goals:
+      <! 	Compile and run: tomcat7:run
+      <!	Package and run: tomcat7:run-war -->
       <plugin>
       	<groupId>org.apache.tomcat.maven</groupId>
       	<artifactId>tomcat7-maven-plugin</artifactId>
