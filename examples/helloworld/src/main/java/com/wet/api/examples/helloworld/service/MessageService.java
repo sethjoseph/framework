@@ -1,4 +1,4 @@
-package com.myquest.api.examples.helloworld.service;
+package com.wet.api.examples.helloworld.service;
 
 public interface MessageService 
 {

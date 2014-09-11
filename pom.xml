@@ -2,13 +2,13 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.myquest.api.commons</groupId>
+  <groupId>com.wet.api.commons</groupId>
   <artifactId>framework</artifactId>
   <version>01.00.00.00-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <organization>
-    <name>MyQuest</name>
+    <name>West Enterprise Technologies</name>
   </organization>
 
   <name>API Framework</name>
@@ -40,7 +40,7 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>com.myquest.api.commons></groupId>
+        <groupId>com.wet.api.commons></groupId>
         <artifact>framework-dep-bom</artifact>
         <version>${project.version}</version>
         <type>pom</type> 

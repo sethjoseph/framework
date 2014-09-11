@@ -1,4 +1,4 @@
-package com.myquest.api.examples.helloworld.config;
+package com.wet.api.examples.helloworld.config;
 
 import javax.inject.Inject;
 import javax.sql.DataSource;
@@ -6,10 +6,10 @@ import javax.sql.DataSource;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
-import com.myquest.api.examples.helloworld.service.MessageService;
+import com.wet.api.examples.helloworld.service.MessageService;
 
 @Configuration
-@ComponentScan(basePackages = {"com.myquest.api.examples.helloworld"})
+@ComponentScan(basePackages = {"com.wet.api.examples.helloworld"})
 public class SpringConfig 
 {
 	@Inject

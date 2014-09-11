@@ -1,4 +1,4 @@
-package com.myquest.api.examples.helloworld.web;
+package com.wet.api.examples.helloworld.web;
 
 import java.util.Date;
 
@@ -10,8 +10,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.myquest.api.examples.helloworld.config.EmbeddedDataSourceConfig;
-import com.myquest.api.examples.helloworld.config.SpringConfig;
+import com.wet.api.examples.helloworld.config.EmbeddedDataSourceConfig;
+import com.wet.api.examples.helloworld.config.SpringConfig;
 
 @Controller
 public class HelloWorldController 

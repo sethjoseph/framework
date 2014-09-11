@@ -1,7 +1,7 @@
 framework
 =========
 
-Unified platform API framework
+Unified platform API framework for West Enterprise Technologies
 
 
 Overview

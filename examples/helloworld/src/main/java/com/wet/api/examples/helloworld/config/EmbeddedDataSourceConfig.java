@@ -1,4 +1,4 @@
-package com.myquest.api.examples.helloworld.config;
+package com.wet.api.examples.helloworld.config;
 
 import javax.naming.NamingException;
 import javax.sql.DataSource;
@@ -10,11 +10,11 @@ import org.springframework.jdbc.datasource.embedded.EmbeddedDatabase;
 import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilder;
 import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType;
 
-import com.myquest.api.examples.helloworld.service.MessageService;
-import com.myquest.api.examples.helloworld.service.impl.HelloMessageService;
+import com.wet.api.examples.helloworld.service.MessageService;
+import com.wet.api.examples.helloworld.service.impl.HelloMessageService;
 
 @Configuration
-@ComponentScan(value={"com.myquest.api.examples.helloworld"})
+@ComponentScan(value={"com.wet.api.examples.helloworld"})
 public class EmbeddedDataSourceConfig 
 {
 	@Bean
