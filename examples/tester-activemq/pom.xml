@@ -3,31 +3,29 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.wet.api.commons</groupId>
-  <artifactId>helloworld</artifactId>
+  <artifactId>tester-activemq</artifactId>
   <version>01.00.00.00-SNAPSHOT</version>
   <packaging>war</packaging>
 
-  <name>Hello World</name>
-  <description>A hello world example of MVC</description>
+  <name>ActiveMQ Tester</name>
+  <description>An ActiveMQ tester example</description>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <servlet-api.version>2.5</servlet-api.version>
     <spring.version>4.0.3.RELEASE</spring.version>
+    <activemq.version>5.7.0</activemq.version>
   </properties>
 
   <dependencies>
   	<!-- Prototyping Dependencies -->
+  	
+  	<!-- ActiveMQ Dependencies -->
   	<dependency>
-		<groupId>javax.inject</groupId>
-		<artifactId>javax.inject</artifactId>
-		<version>1</version>
-	</dependency>
-    <dependency>
-        <groupId>com.h2database</groupId>
-        <artifactId>h2</artifactId>
-        <version>1.3.163</version>
-	</dependency>
+      <groupId>org.apache.activemq</groupId>
+      <artifactId>activemq-core</artifactId>
+      <version>${activemq.version}</version>
+    </dependency>
   
     <!-- Servlet API -->
     <dependency>
