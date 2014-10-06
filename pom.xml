@@ -15,7 +15,7 @@
   <description>Organizational parent pom project to be used by all API projects</description>
   
   <properties>
-    <jdk.vjersion>1.6</jdk.version>
+    <jdk.version>1.7</jdk.version>
     <compiler.plugin.version>3.1</compiler.plugin.version>
   </properties>
   
@@ -26,22 +26,22 @@
   </developers>
 
   <modules>
+    <module>dep-bom</module>
     <module>bom</module>
     <module>common</module>
-    <module>dep-bom</module>
     <module>examples</module>
-    <module>maven-plugins</module>
+    <!--<module>maven-plugins</module>
     <module>maven-site-resources</module>
     <module>it-support</module>
     <module>tools</module>
-    <module>userguide</module>
+    <module>userguide</module>-->
   </modules>
 
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>com.wet.api.commons></groupId>
-        <artifact>framework-dep-bom</artifact>
+        <groupId>com.wet.api.commons</groupId>
+        <artifactId>framework-dep-bom</artifactId>
         <version>${project.version}</version>
         <type>pom</type> 
         <scope>import</scope>

@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <artifactId>simple-service</artifactId>
+  <packaging>jar</packaging>
+
+  <name>simple service implementation</name>
+  <description>This project contains the service implementation for the simple functionality.</description>
+
+  <parent>
+    <groupId>com.wet.api.examples.simple</groupId>
+    <artifactId>simple</artifactId>
+    <version>01.00.00.00-SNAPSHOT</version>
+  </parent>
+
+  <dependencies>
+    <!-- Simple Dependencies -->
+    <!--<dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>simple-model</artifactId>
+      <version>${project.version}</version>
+    </dependency>-->
+
+  </dependencies>
+
+</project>

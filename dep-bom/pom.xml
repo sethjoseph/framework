@@ -7,16 +7,22 @@
   <version>01.00.00.00-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>API BOM (Bill of Materials)</name>
+  <name>API Third Party Dependency BOM (Bill of Materials)</name>
   <description>BOM for easy dependency management of third party API dependencies</description>
 
-  <properteis>
+  <properties>
     <!-- dependency versions -->
+    <jersey2.version>2.6</jersey2.version>
   
   </properties>
 
   <dependencyManagement>
     <dependencies>
+      <dependency>
+        <groupId>org.glassfish.jersey.containers</groupId>
+        <artifactId>jersey-container-servlet-core</artifactId>
+        <version>${jersey2.version}</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 

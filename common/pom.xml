@@ -1,0 +1,21 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <artifactId>common</artifactId>
+  <packaging>pom</packaging>
+
+  <name>API Common</name>
+  <description>Multi-module project to build several artifacts to support API.</description>
+
+  <parent>
+    <groupId>com.wet.api.commons</groupId>
+    <artifactId>framework</artifactId>
+    <version>01.00.00.00-SNAPSHOT</version>
+  </parent>
+
+  <modules>
+    <module>common-api-parent</module>
+  </modules>
+  
+</project>
