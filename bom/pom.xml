@@ -10,14 +10,11 @@
   <name>API BOM (Bill of Materials)</name>
   <description>BOM for easy dependency management of API artifacts</description>
 
-  <dependencyManagement>
+  <!--<dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>com.wet.api.commons></groupId>
-        <artifact>common-prototype</artifact>
-        <version>${project.version}</version>
       </dependency>
     </dependencies>
-  </dependencyManagement>
+  </dependencyManagement>-->
 
 </project>

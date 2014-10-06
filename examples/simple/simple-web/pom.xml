@@ -1,0 +1,54 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <artifactId>simple-web</artifactId>
+  <packaging>war</packaging>
+
+  <name>simple service web</name>
+  <description>This project contains the RESTful web facing portion of the simple service.</description>
+
+  <parent>
+    <groupId>com.wet.api.examples.simple</groupId>
+    <artifactId>simple</artifactId>
+    <version>01.00.00.00-SNAPSHOT</version>
+  </parent>
+
+  <dependencies>
+    <!-- Simple Dependencies -->
+    <!--<dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>simple-model</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>simple-service</artifactId>
+      <version>${project.version}</version>
+    </dependency>-->
+
+    <!-- Jersey Dependencies -->
+    <dependency>
+      <groupId>org.glassfish.jersey.containers</groupId>
+      <artifactId>jersey-container-servlet-core</artifactId>
+    </dependency>
+  </dependencies>
+  
+  <build>
+    <plugins>
+      <!-- Embedded Tomcat7 Plugins
+           Goals:
+           Compile and run: tomcat7:run
+           Package and run: tomcat7:run-war -->
+      <plugin>
+        <groupId>org.apache.tomcat.maven</groupId>
+        <artifactId>tomcat7-maven-plugin</artifactId>
+        <version>2.2</version>
+        <configuration>
+                <port>9090</port>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  
+</project>

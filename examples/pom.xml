@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <artifactId>examples</artifactId>
+  <packaging>pom</packaging>
+
+  <name>API Examples</name>
+  <description>Examples of how to use certain API Framework components.</description>
+
+  <parent>
+    <groupId>com.wet.api.commons</groupId>
+    <artifactId>framework</artifactId>
+    <version>01.00.00.00-SNAPSHOT</version>
+  </parent>
+
+  <profiles>
+    <!-- Examples are only built if requested. Down the road this will prevent these artifacts from being pushed in Nexus, run in Sonar, and from being built as part of the Maven site -->
+    <profile>
+      <id>examples</id>
+      <modules>
+        <module>simple</module>
+      </modules>
+    </profile>
+  </profiles>
+
+</project>
