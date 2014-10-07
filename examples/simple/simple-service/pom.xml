@@ -16,12 +16,23 @@
 
   <dependencies>
     <!-- Simple Dependencies -->
-    <!--<dependency>
+    <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>simple-model</artifactId>
       <version>${project.version}</version>
-    </dependency>-->
-
+    </dependency>
+    
+    <!-- Spring Framework Dependencies -->
+    <dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-core</artifactId>
+	</dependency>
+    
+    <!-- Other Dependencies -->
+    <dependency>
+		<groupId>javax.inject</groupId>
+		<artifactId>javax.inject</artifactId>
+	</dependency>
   </dependencies>
 
 </project>

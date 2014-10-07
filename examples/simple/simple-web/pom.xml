@@ -20,12 +20,12 @@
       <groupId>${project.groupId}</groupId>
       <artifactId>simple-model</artifactId>
       <version>${project.version}</version>
-    </dependency>
+    </dependency>-->
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>simple-service</artifactId>
       <version>${project.version}</version>
-    </dependency>-->
+    </dependency>
 
     <!-- Jersey Dependencies -->
     <dependency>
